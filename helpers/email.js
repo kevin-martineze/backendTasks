@@ -15,18 +15,16 @@ export const emailRegistro = async (datos) => {
   // Información del email
 
   const info = await transport.sendMail({
-    from: '"UpTask - Administrador de Proyectos" <cuentas@uptask.com>',
+    from: '"Tasks - Administrador de Proyectos" <administrador@taskspangea.com>',
     to: email,
-    subject: "UpTask - Comprueba tu cuenta",
-    text: "Comprueba tu cuenta en UpTask",
-    html: `<p>Hola: ${nombre} Comprueba tu cuenta en UpTask</p>
+    subject: "TasksPangea - Comprueba tu cuenta",
+    text: "Comprueba tu cuenta en TasksPangea",
+    html: `<p>Hola: ${nombre} Comprueba tu cuenta en TasksPangea</p>
     <p>Tu cuenta ya esta casi lista, solo debes comprobarla en el siguiente enlace: 
 
     <a href="${process.env.FRONTEND_URL}/confirmar/${token}">Comprobar Cuenta</a>
     
     <p>Si tu no creaste esta cuenta, puedes ignorar el mensaje</p>
-    
-    
     `,
   });
 };
