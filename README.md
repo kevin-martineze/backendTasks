@@ -11,7 +11,7 @@ Bienvenido a TasksPangea, una plataforma web diseñada para gestionar proyectos 
 - Seguimiento en Tiempo Real: Mantén actualizado el estado de tus tareas y proyectos con actualizaciones en tiempo real.
 
 ## Intrucciones de Uso de TasksPangea
-![Login](file:///C:/Users/Kevin%20Martinez/OneDrive%20-%20UNIVERSIDAD%20AUTONOMA%20DEL%20CARIBE/Documents/backend/imgREADME/Login.PNG)
+![Login](https://github.com/kevin-martineze/backendTasks/blob/master/imgREADME/Login.PNG)
 1. Crear una Cuenta y Verificar
 Dirígete a la página de inicio y haz clic en "Crear cuenta".
 Completa la información requerida y haz clic en "Registrar".
