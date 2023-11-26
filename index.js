@@ -13,7 +13,22 @@ dotenv.config();
 
 conectarDB();
 
-app.use(cors());
+// Configurar CORS
+const whitelist = ["https://frontend-tasks-one.vercel.app"];
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (whitelist.includes(origin)) {
+      // Puede consultar la API
+      callback(null, true);
+    } else {
+      // No esta permitido
+      callback(new Error("Error de Cors"));
+    }
+  },
+};
+
+app.use(cors(corsOptions));
 
 // Routing
 app.use("/api/usuarios", usuarioRoutes);
@@ -31,12 +46,12 @@ import { Server } from "socket.io";
 const io = new Server(servidor, {
   pingTimeout: 60000,
   cors: {
-    origin: "*",
+    origin: process.env.FRONTEND_URL,
   },
 });
 
 io.on("connection", (socket) => {
-  // console.log("Conectado a socket.io");
+  console.log("Conectado a socket.io");
 
   // Definir los eventos de socket io
   socket.on("abrir proyecto", (proyecto) => {
