@@ -1,4 +1,4 @@
-# backendTasks
+# Tasks Pangea
 Bienvenido a TasksPangea, una plataforma web diseñada para gestionar proyectos y tareas de manera eficiente. Con nuestra aplicación, puedes crear proyectos, asignar tareas específicas a cada proyecto y colaborar con otros usuarios registrados.
 
 Características Principales
