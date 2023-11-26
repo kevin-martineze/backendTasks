@@ -1,7 +1,7 @@
 # Tasks Pangea
 Bienvenido a TasksPangea, una plataforma web diseñada para gestionar proyectos y tareas de manera eficiente. Con nuestra aplicación, puedes crear proyectos, asignar tareas específicas a cada proyecto y colaborar con otros usuarios registrados.
 
-#Características
+## Características
 - Gestión de Proyectos: Crea proyectos personalizados para organizar tus tareas de manera efectiva.
 
 - Tareas Asignadas: Divide tus proyectos en tareas específicas para un seguimiento detallado.
@@ -10,7 +10,7 @@ Bienvenido a TasksPangea, una plataforma web diseñada para gestionar proyectos 
 
 - Seguimiento en Tiempo Real: Mantén actualizado el estado de tus tareas y proyectos con actualizaciones en tiempo real.
 
-#Intrucciones de Uso de TasksPangea
+## Intrucciones de Uso de TasksPangea
 1. Crear una Cuenta y Verificar
 Dirígete a la página de inicio y haz clic en "Crear cuenta".
 Completa la información requerida y haz clic en "Registrar".
@@ -36,7 +36,7 @@ En caso de olvidar tu contraseña, utiliza la opción "¿Olvidaste tu contraseñ
 Sigue las instrucciones para restablecer tu contraseña a través del enlace enviado por correo electrónico.
 ¡Listo! Ahora estás listo para aprovechar al máximo [Nombre de tu Aplicación] y gestionar tus proyectos de manera eficiente.
 
-# ¿Cómo se ejecuta la aplicación?
+## ¿Cómo se ejecuta la aplicación?
 
 Asegurate de tener Node.js y npm instalados en tu maquina.
 
