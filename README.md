@@ -56,4 +56,5 @@ Asegurate de tener Node.js y npm instalados en tu maquina.
 3. ejecuta el backend con npm run dev para desarrollo
 4. Luego ejecuta el frontend con las instrucciones dadas en el otro repositorio
    
+Video: https://drive.google.com/drive/u/0/folders/1aBqQ8fK-RrI8D8s85ZIz_2qov1HgqKAF
 
