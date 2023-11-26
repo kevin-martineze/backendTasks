@@ -16,7 +16,8 @@ Bienvenido a TasksPangea, una plataforma web diseñada para gestionar proyectos 
 Dirígete a la página de inicio y haz clic en "Crear cuenta".
 Completa la información requerida y haz clic en "Registrar".
 Recibirás un correo electrónico con un enlace de verificación. Haz clic en el enlace para activar tu cuenta.
-2. Iniciar Sesión
+![Confirmacion de Cuenta](https://github.com/kevin-martineze/backendTasks/blob/master/imgREADME/confirmacioncorreo.PNG)
+3. Iniciar Sesión
 Después de verificar tu cuenta, inicia sesión con tus credenciales.
 ![Inicio](https://github.com/kevin-martineze/backendTasks/blob/master/imgREADME/pagina%20de%20inicio.PNG)
 4. Crear un Proyecto
