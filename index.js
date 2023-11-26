@@ -14,7 +14,7 @@ dotenv.config();
 conectarDB();
 
 // Configurar CORS
-const whitelist = ["https://frontend-tasks-one.vercel.app"];
+const whitelist = [process.env.FRONTEND_URL];
 
 const corsOptions = {
   origin: function (origin, callback) {
@@ -46,7 +46,7 @@ import { Server } from "socket.io";
 const io = new Server(servidor, {
   pingTimeout: 60000,
   cors: {
-    origin:"https://frontend-tasks-one.vercel.app",
+    origin: process.env.FRONTEND_URL,
   },
 });
 
