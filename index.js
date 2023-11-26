@@ -46,12 +46,12 @@ import { Server } from "socket.io";
 const io = new Server(servidor, {
   pingTimeout: 60000,
   cors: {
-    origin: process.env.FRONTEND_URL,
+    origin:"https://frontend-tasks-one.vercel.app",
   },
 });
 
 io.on("connection", (socket) => {
-  console.log("Conectado a socket.io");
+  // console.log("Conectado a socket.io");
 
   // Definir los eventos de socket io
   socket.on("abrir proyecto", (proyecto) => {
