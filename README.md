@@ -11,6 +11,7 @@ Bienvenido a TasksPangea, una plataforma web diseñada para gestionar proyectos 
 - Seguimiento en Tiempo Real: Mantén actualizado el estado de tus tareas y proyectos con actualizaciones en tiempo real.
 
 ## Intrucciones de Uso de TasksPangea
+![Login](imgREADME/Login.PNG)
 1. Crear una Cuenta y Verificar
 Dirígete a la página de inicio y haz clic en "Crear cuenta".
 Completa la información requerida y haz clic en "Registrar".
@@ -34,7 +35,7 @@ Utiliza las opciones correspondientes para realizar cambios en el proyecto.
 7. Restablecer Contraseña
 En caso de olvidar tu contraseña, utiliza la opción "¿Olvidaste tu contraseña?" en la pantalla de inicio de sesión.
 Sigue las instrucciones para restablecer tu contraseña a través del enlace enviado por correo electrónico.
-¡Listo! Ahora estás listo para aprovechar al máximo [Nombre de tu Aplicación] y gestionar tus proyectos de manera eficiente.
+¡Listo! Ahora estás listo para aprovechar al máximo TasksPangea y gestionar tus proyectos de manera eficiente.
 
 ## ¿Cómo se ejecuta la aplicación?
 
